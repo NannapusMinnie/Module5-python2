@@ -254,7 +254,7 @@ def recalc_daily_needed(plan):
         return
 
     new_daily_needed = remaining / remaining_periods
-    print(f"📊 New daily saving needed to reach goal: {new_daily_needed:.2f} THB/day")
+    print(f" New daily saving needed to reach goal: {new_daily_needed:.2f} THB/day")
 
 def reset_plan(plan):
     confirm = input("Are you sure you want to reset this plan? (y/n): ").lower()
@@ -341,7 +341,7 @@ def menu_view_plans(plans):
 # =======================
 
 def main():
-    print("🎉 Welcome to Saving Planner 2.0! 🎉\n")
+    print(" Welcome to Saving Planner 2.0! :) \n")
     plans = {}  # All plans exist in memory
 
     while True:
