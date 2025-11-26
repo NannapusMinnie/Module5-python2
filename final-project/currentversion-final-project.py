@@ -646,7 +646,7 @@ def main() -> None:
         elif choice == "3":
             menu_view_plans(plans_manager)
         elif choice == "4":
-            print("Thank you for using Saving Planner 2.0 Bye!")
+            print("Thank you for using Saving Planner 2.0 Bye :)!")
             break
         else:
             print("Invalid choice. Try again.")
